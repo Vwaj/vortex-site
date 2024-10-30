@@ -1,70 +1,58 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* Estilos iniciais para o site Vortex */
 
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
     color: #333;
-    background-color: #f4f4f4;
-    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #333;
     color: #fff;
-    padding: 1.5em 0;
+    padding: 20px;
     text-align: center;
 }
 
-header h1 {
+h1 {
     font-size: 2.5em;
-    margin-bottom: 0.5em;
+    margin: 0;
 }
 
-header p {
-    font-size: 1.2em;
+p.slogan {
     font-style: italic;
+    color: #ccc;
+    font-size: 1.2em;
 }
 
 main {
+    padding: 20px;
     max-width: 800px;
-    margin: 2em auto;
-    padding: 1em;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
 }
 
 article {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 1em;
-    margin-bottom: 1.5em;
-}
-
-article h2 {
-    font-size: 1.8em;
-    color: #333;
-    margin-bottom: 0.5em;
-}
-
-article p {
-    margin: 0.5em 0;
-    font-size: 1em;
-}
-
-article img {
-    max-width: 100%;
-    height: auto;
-    margin: 1em 0;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-    font-size: 0.9em;
+/* Estilos de imagem para redimensionamento e responsividade */
+article img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    display: block;
+    margin: 10px auto;
+}
+
+h2 {
+    color: #333;
+}
+
+em {
+    color: #777;
 }
