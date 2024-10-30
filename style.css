@@ -42,7 +42,7 @@ article {
 
 /* Estilos de imagem para redimensionamento e responsividade */
 article img {
-    width: 100%;
+    width: 75%;
     max-width: 500px;
     border-radius: 8px;
     display: block;
