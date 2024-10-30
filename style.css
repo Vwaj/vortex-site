@@ -1,57 +1,83 @@
-/* Estilos iniciais para o site Vortex */
+/* Estilos refinados para o site Vortex */
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #f8f9fc; /* Fundo claro */
     color: #333;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #343a40;
+    color: #f4f4f9;
     padding: 20px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2.8em; /* Título mais destacado */
     margin: 0;
+    font-weight: bold;
 }
 
 p.slogan {
     font-style: italic;
-    color: #ccc;
-    font-size: 1.2em;
+    color: #ddd;
+    font-size: 1.2em; /* Slogan levemente maior */
+    margin-top: 5px;
 }
 
 main {
     padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 900px;
+    margin: 40px auto; /* Mais espaçamento no topo e abaixo */
 }
 
 article {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px; /* Arredondamento mais sutil */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 article img {
-    width: 75%;
-    max-width: 500px;
-    border-radius: 8px;
+    width: 80%; /* Redimensionamento da imagem */
+    max-width: 400px;
+    border-radius: 10px;
     display: block;
-    margin: 10px auto;
+    margin: 20px auto; /* Centraliza a imagem */
 }
 
 h2 {
-    color: #333;
+    color: #343a40;
+    font-size: 2em;
+    margin-top: 0;
 }
 
 em {
     color: #777;
+    font-size: 0.95em;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #343a40;
+    color: #f4f4f9;
+    font-size: 0.95em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
