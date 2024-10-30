@@ -40,7 +40,6 @@ article {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos de imagem para redimensionamento e responsividade */
 article img {
     width: 75%;
     max-width: 500px;
